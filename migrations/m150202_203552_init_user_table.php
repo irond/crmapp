@@ -21,6 +21,5 @@ class m150202_203552_init_user_table extends Migration
     {
         $this->dropTable('user');
 
-        return false;
     }
 }

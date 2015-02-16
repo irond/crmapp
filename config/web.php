@@ -11,6 +11,9 @@ return [
                 'enablePrettyUrl' => true,
                 'showScriptName' => false
         ],
+        'user' => [
+            'identityClass' => 'app\models\user\UserRecord'
+        ],
         'view' => [
             'renderers' => [
                 'md' => [
